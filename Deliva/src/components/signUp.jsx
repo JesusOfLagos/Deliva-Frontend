@@ -8,6 +8,8 @@ function signUp () {
   return (
     <>
       <h1>Hello! This is the Sign Up Page.</h1>
+
+<button>Sign Up</button>
     </>
   )
 }
