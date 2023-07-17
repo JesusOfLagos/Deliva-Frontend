@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import signUp from './components/signUp'
+import SignUp from '../src/components/SignUp/signUp'
+import SignIn from '../src/components/SignUp/signIn'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Home from './components/LandingPage/home'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -11,7 +13,10 @@ function App() {
   return (
     <>
       <div className="card">
-        <button>Get Started</button>
+      {/* <SignUp /> */}
+      {/* <SignIn /> */}
+      <Home />
+        {/* <button>Get Started</button> */}
       </div>
     </>
   )
