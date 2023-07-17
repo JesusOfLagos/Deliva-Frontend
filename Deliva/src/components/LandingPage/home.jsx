@@ -7,9 +7,7 @@ function signUp () {
 
   return (
     <>
-      <h1>Hello! This is the Landing Page.</h1>
 
-<button>Sign Up</button>
     </>
   )
 }
