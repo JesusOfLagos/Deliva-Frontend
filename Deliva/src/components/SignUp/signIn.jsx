@@ -1,17 +1,33 @@
+
+
+
+
+// function SignIn () {
+
+
+//   return (
+//     <>
+//       <h1>Hello! This is the Sign In Page.</h1>
+//     </>
+//   )
+// }
+
+// export default SignIn
+
+
 import { useState } from 'react'
 
 
 
-function signUp () {
-//   const [count, setCount] = useState(0)
+function SignIn () {
+
 
   return (
     <>
-      <h1>Hello! This is the Sign In Page.</h1>
-
-<button>Sign Up</button>
+    <h1>This is the home page</h1>
     </>
   )
 }
 
-export default signUp
+export default SignIn
+
