@@ -3,10 +3,10 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
+    { name: 'Become A Rider', href: '#' },
+    { name: 'About Us', href: '#' },
+    { name: 'Cities', href: '#' },
+    { name: 'Contact Us', href: '#' },
   ]
 
 
