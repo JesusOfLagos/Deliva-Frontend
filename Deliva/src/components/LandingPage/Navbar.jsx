@@ -44,15 +44,15 @@ function Navbar () {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 py-3 px-8">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
 
             <button className='bg-black' disabled="disabled">
                   <a
                     href="#"
-                    className='mt-5'>
-                      Sign Up
+                    className=''>
+                      <p className='text-white'>Sign Up</p>
                     </a>
                 </button>
           </div>
@@ -94,11 +94,11 @@ function Navbar () {
                   >
                     Log in
                   </a>
-                <button disabled="disabled">
+                <button className='bg-black' disabled="disabled">
                   <a
                     href="#"
                     className='mt-5'>
-                      Sign Up
+                      <p className='text-white'>Sign Up</p>
                     </a>
                 </button>
                 </div>
