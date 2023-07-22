@@ -22,8 +22,8 @@ function Navbar () {
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <p className='ml-6 text-3xl'>Deliva Pro</p>
+              {/* <span className="sr-only">Your Company</span> */}
+              <p className='ml-6 text-black text-3xl'>Deliva Pro</p>
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -44,16 +44,12 @@ function Navbar () {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 py-3 px-8">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
 
-            <button className='bg-black' disabled="disabled">
-                  <a
-                    href="#"
-                    className='mt-5'>
-                      Sign Up
-                    </a>
+            <button onSubmit={() => {}} className='bg-black cursor-pointer' disabled="disabled">
+                      <p className='text-white'>Sign Up</p>
                 </button>
           </div>
         </nav>
@@ -62,8 +58,8 @@ function Navbar () {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
-                <p className='text-bold text-3xl'>Deliva Pro</p>
+                {/* <span className="sr-only">Your Company</span> */}
+                <p className='text-bold text-black text-3xl'>Deliva Pro</p>
               </a>
               <button
                 type="button"
@@ -94,12 +90,8 @@ function Navbar () {
                   >
                     Log in
                   </a>
-                <button disabled="disabled">
-                  <a
-                    href="#"
-                    className='mt-5'>
-                      Sign Up
-                    </a>
+                <button onSubmit={() => {}} className='bg-black cursor-pointer' disabled="disabled">
+                      <p className='text-white'>Sign Up</p>
                 </button>
                 </div>
               </div>
@@ -113,7 +105,6 @@ function Navbar () {
 }
 
 export default Navbar
-
 
 
 
