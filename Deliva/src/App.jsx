@@ -7,7 +7,9 @@ import NotFound from "./components/Auth/notFound";
 import Home from "./components/home";
 import SignUp from "./components/Auth/signUp";
 import Dashboard from "./components/dashboard";
+import Profile from "./components/profile";
 import "./App.css";
+
 
 
 
@@ -23,6 +25,7 @@ export default function App() {
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/reset-password" element={<ResetPassword />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/profile" element={<Profile />} />
 
           {/* If no route matches, show the NotFound component */}
           <Route path="*" element={<NotFound />} />
