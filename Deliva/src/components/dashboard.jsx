@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import googleLogo from "../assets/googleLogo.jpg"
+import googleLogo from "../assets/googleLogo.png"
 
 const user = {
   name: "Jesus Akanle",
