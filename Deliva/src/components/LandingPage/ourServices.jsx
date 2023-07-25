@@ -10,21 +10,31 @@ export default function OurServices () {
     return (
         <div>
             <div>
-                <h2>Our Services</h2>
-                <p></p>
+            <h1 className="tracking-tight pb-3">Our Services</h1>
+                <div className="flex justify-center">
+                    <div class="border-t line w-32 border-[6px] solid-3 rounded-full  border-gray-500 relative w-16"></div>
+                </div>
             </div>
-            <div>
-                <div>
-                    <img src={location} alt="" />
+            <div className="grid grid-cols-2 grid-rows-2 mt-8 items-center gap-10">
+                <div className="bg-gray-400 h-48 relative flex flex-col rounded-2xl">
+                    <h2 className="text-bold">Location Selection</h2>
+                    <p>Choose location in easy <br /> with inbuilt maps</p>
+                    <img className="absolute h-32 w-32 bottom-2 right-6" src={Location} alt="" />
                 </div>
-                <div>
-                    <img src={DeliveryCartoon} alt="" />
+                <div className="bg-gray-400 h-48 relative flex flex-col rounded-2xl">
+                    <h2 className="text-bold">Optimal Routing</h2>
+                    <p>Avoids traffic with <br /> Intelligence and <br /> technology</p>
+                    <img className="absolute h-32 w-32 bottom-2 right-6" src={DeliveryCartoon} alt="" />
                 </div>
-                <div>
-                    <img src={Payment} alt="" />
+                <div className="bg-gray-400 h-48 relative flex flex-col rounded-2xl">
+                    <h2 className="text-bold">Bidding System</h2>
+                    <p>Pick price reasonable <br /> just for you</p>
+                    <img className="absolute h-32 w-32 bottom-2 right-6" src={Payment} alt="" />
                 </div>
-                <div>
-                    <img src={girlWithMap} alt="" />
+                <div className="bg-gray-400 h-48 relative flex flex-col rounded-2xl">
+                    <h2 className="text-bold">Tracking</h2>
+                    <p>You can track your <br /> package once on the <br /> move</p>
+                    <img className="absolute h-32 w-32 bottom-2 right-6" src={girlWithMap} alt="" />
                 </div>
             </div>
         </div>
