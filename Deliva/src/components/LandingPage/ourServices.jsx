@@ -17,23 +17,23 @@ export default function OurServices () {
             </div>
             <div className="grid grid-cols-2 grid-rows-2 mt-8 items-center gap-10">
                 <div className="bg-gray-400 h-48 relative flex flex-col rounded-2xl">
-                    <h2 className="font-bold text-3xl text-left m-3">Location Selection</h2>
-                    <p className="text-left ml-3">Choose location in easy <br /> with inbuilt maps</p>
+                    <h2 className="font-bold text-black text-3xl text-left m-3">Location Selection</h2>
+                    <p className="text-left text-black ml-3">Choose location in easy <br /> with inbuilt maps</p>
                     <img className="absolute h-32 w-32 bottom-2 right-6" src={Location} alt="" />
                 </div>
                 <div className="bg-gray-400 h-48 relative flex flex-col rounded-2xl">
-                    <h2 className="font-bold text-3xl text-left m-3">Optimal Routing</h2>
-                    <p className="text-left ml-3">Avoids traffic with <br /> Intelligence and <br /> technology</p>
+                    <h2 className="font-bold text-black text-3xl text-left m-3">Optimal Routing</h2>
+                    <p className="text-left text-black ml-3">Avoids traffic with <br /> Intelligence and <br /> technology</p>
                     <img className="absolute h-32 w-32 bottom-2 right-6" src={DeliveryCartoon} alt="" />
                 </div>
                 <div className="bg-gray-400 h-48 relative flex flex-col rounded-2xl">
-                    <h2 className="font-bold text-3xl text-left m-3">Bidding System</h2>
-                    <p className="text-left ml-3">Pick price reasonable <br /> just for you</p>
+                    <h2 className="font-bold text-black text-3xl text-left m-3">Bidding System</h2>
+                    <p className="text-left text-black ml-3">Pick price reasonable <br /> just for you</p>
                     <img className="absolute h-32 w-32 bottom-2 right-6" src={Payment} alt="" />
                 </div>
                 <div className="bg-gray-400 h-48 relative flex flex-col rounded-2xl">
-                    <h2 className="font-bold text-3xl text-left m-3">Tracking</h2>
-                    <p className="text-left ml-3">You can track your <br /> package once on the <br /> move</p>
+                    <h2 className="font-bold text-black text-3xl text-left m-3">Tracking</h2>
+                    <p className="text-left text-black ml-3">You can track your <br /> package once on the <br /> move</p>
                     <img className="absolute h-32 w-32 bottom-2 right-6" src={girlWithMap} alt="" />
                 </div>
             </div>

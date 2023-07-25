@@ -11,7 +11,7 @@ export default function Footer () {
     return (
         <div>
             <div>
-                <h1>Deliva Pro</h1>
+                <h1 className="text-black">Deliva Pro</h1>
             </div>
             <div></div>
             <div></div>
