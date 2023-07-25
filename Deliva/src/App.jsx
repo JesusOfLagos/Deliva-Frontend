@@ -9,6 +9,11 @@ import SignUp from "./components/Auth/signUp";
 import Dashboard from "./components/dashboard";
 import Profile from "./components/profile";
 import "./App.css";
+import OurServices from "./components/LandingPage/ourServices";
+import Hero from "./components/LandingPage/hero";
+import HowDeliva from "./components/LandingPage/howDeliva";
+import BeforeFooter from "./components/LandingPage/beforeFooter";
+import Footer from "./components/LandingPage/footer";
 
 
 
@@ -26,6 +31,11 @@ export default function App() {
           <Route path="/reset-password" element={<ResetPassword />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/contact-us" element={<Footer />} />
+          <Route path="/services" element={<OurServices />} />
+          <Route path="/about-us" element={<HowDeliva />} />
+          <Route path="/cities" element={<Hero />} />
+          <Route path="/get-our-app" element={<BeforeFooter />} />
 
           {/* If no route matches, show the NotFound component */}
           <Route path="*" element={<NotFound />} />
