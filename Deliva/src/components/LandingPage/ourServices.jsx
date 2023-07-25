@@ -17,7 +17,7 @@ export default function OurServices () {
             </div>
             <div className="grid grid-cols-2 grid-rows-2 mt-8 items-center gap-10">
                 <div className="bg-gray-400 h-48 relative flex flex-col rounded-2xl">
-                    <h2 className="font-bold text-left m-3">Location Selection</h2>
+                    <h2 className="font-bold text-3xl text-left m-3">Location Selection</h2>
                     <p className="text-left ml-3">Choose location in easy <br /> with inbuilt maps</p>
                     <img className="absolute h-32 w-32 bottom-2 right-6" src={Location} alt="" />
                 </div>
