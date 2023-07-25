@@ -1,5 +1,6 @@
 
 import googleLogo from '../../assets/googleLogo.png'
+import { Link } from "react-router-dom"
 // import Select from './select'
 
 
@@ -44,7 +45,7 @@ const value = "Option 1";
         <input className='mt-2 mb-3 py-4 px-5 rounded-xl border-solid border-2 border-gray-600' type="password" name="" id="" placeholder='Enter your password.' />
         <label className="text-black text-left" htmlFor="">Verify Password</label>
         <input className='mt-2 mb-3 py-4 px-5 rounded-xl border-solid border-2 border-gray-600' type="password" name="" id="" placeholder='Verify your password.' />
-        <p className="pt-2 pl-[28rem] text-black">Have an account? <span className="bg-red"><a href="/" className="text-red-600 text-right">Login</a></span></p>
+        <p className="pt-2 pl-[28rem] text-black">Have an account? <span className="bg-red"><Link to="/sign-in" className="text-red-600 text-right">Login</Link></span></p>
         </div>
         <button className=" bg-black mt-35 text-2xl text-white" type="submit">Sign Up</button>
 

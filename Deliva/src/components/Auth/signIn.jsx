@@ -1,5 +1,6 @@
 
 import googleLogo from '../../assets/googleLogo.png'
+import { Link } from "react-router-dom"
 
 
 function SignIn () {
@@ -14,14 +15,14 @@ function SignIn () {
           <p className="text-black mb-4">Please input your email to login or sign up into your account to <br /> enjoy our services.</p>
         </div>
         <div className="mb-10 flex flex-col">
-        <p className="pt-2 pl-[28rem] text-black">Don't have an account? <span className="bg-red"><a href="/" className="text-green-600 text-right">Sign Up</a></span></p>
+        <p className="pt-2 pl-[28rem] text-black">Don't have an account? <span className="bg-red"><Link to="/sign-up" className="text-green-600 text-right">Sign Up</Link></span></p>
         <label className="text-black text-left" htmlFor="">Email</label>
         <input className='mt-2 mb-3 py-4 px-5 rounded-xl border-solid border-2 border-gray-600' type="email" name="" id="" placeholder='Enter your email address.' />
         <label className="text-black text-left" htmlFor="">Password</label>
         <input className='mt-2 mb-3 py-4 px-5 rounded-xl border-solid border-2 border-gray-600' type="password" name="" id="" placeholder='Enter your password.' />
-        <p className="pt-2 pl-[28rem] text-black">Forgot password? <span className="bg-red"><a href="/" className="text-red-600 text-right">Reset</a></span></p>
+        <p className="pt-2 pl-[28rem] text-black">Forgot password? <span className="bg-red"><Link to="/reset-password" className="text-red-600 text-right">Reset</Link></span></p>
         </div>
-        <button className=" bg-black mt-35 text-2xl text-white" type="submit">Sign In</button>
+        <button onClick={() => {}} className=" bg-black mt-35 text-2xl text-white" type="submit">Sign In</button>
 
 
         <div className="flex flex-row pb-10 mt-20 justify-center">
