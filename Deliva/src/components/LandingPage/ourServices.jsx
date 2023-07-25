@@ -10,7 +10,7 @@ export default function OurServices () {
     return (
         <div>
             <div>
-            <h1 className="tracking-tight pb-3">Our Services</h1>
+            <h1 className="tracking-tight text-black pb-3">Our Services</h1>
                 <div className="flex justify-center">
                     <div class="border-t line w-32 border-[6px] solid-3 rounded-full  border-gray-500 relative w-16"></div>
                 </div>

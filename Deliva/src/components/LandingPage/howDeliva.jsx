@@ -7,7 +7,7 @@ export default function HowDeliva () {
     return (
         <div  className="flex flex-col mt-32 mb-32 space-y-12">
             <div>
-                <h2 className="text-3xl tracking-tight pb-3">How Deliva Pro Works</h2>
+                <h2 className="text-3xl text-black tracking-tight pb-3">How Deliva Pro Works</h2>
                 <div className="flex justify-center">
                     <div class="border-t line w-32 border-[6px] solid-3 rounded-full  border-gray-500 relative w-16"></div>
                 </div>
