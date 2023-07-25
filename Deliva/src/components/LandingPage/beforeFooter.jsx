@@ -8,7 +8,7 @@ import footerMap from "./../../assets/footerMap.png"
 
 export default function BeforeFooter () {
     return (
-        <div>
+        <div className="flex flex-row mt-32 mb-32 space-x-6">
             <div>
                 <img src={footerMap} alt="" />
             </div>

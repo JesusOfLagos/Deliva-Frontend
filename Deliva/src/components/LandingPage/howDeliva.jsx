@@ -15,8 +15,8 @@ export default function HowDeliva () {
             <div>
                 <img src={Maps} alt="Maps" />
             </div>
-            <div>
-                <p>
+            <div className="ring-1 ring-gray-200 rounded-2xl">
+                <p className="tracking-wide m-5">
                     Deliva Pro presents an opportunity to level the playing field and provide <br /> affordable and efficient delivery services for all businesses, regardless of their <br /> size. By utilizing technology, we can offer savings on multiple fronts. <br /> Additionally, we can optimize routes using business intelligence, reducing <br /> delivery time and costs. Through Deliva Pro, small businesses can benefit from <br /> reduced delivery expenses and compete on an equal footing with larger <br /> players in the market.
                 </p>
             </div>
