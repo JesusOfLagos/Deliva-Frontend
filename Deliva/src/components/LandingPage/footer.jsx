@@ -3,7 +3,7 @@ import instagram from "./../../assets/instagram.png"
 import twitter from "./../../assets/twitter.png"
 import facebook from "./../../assets/facebook.png"
 import googlePlay from "./../../assets/googlePlay.png"
-import Apple from "./../../assets/apple.png"
+import Apple from "./../../assets/appleLogo.png"
 
 
 

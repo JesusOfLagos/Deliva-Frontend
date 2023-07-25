@@ -1,5 +1,5 @@
 import googlePlay from "./../../assets/googlePlay.png"
-import Apple from "./../../assets/apple.png"
+import Apple from "./../../assets/appleLogo.png"
 
 
 
