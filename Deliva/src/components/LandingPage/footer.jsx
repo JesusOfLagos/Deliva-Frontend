@@ -9,6 +9,13 @@ import Apple from "./../../assets/appleLogo.png"
 
 export default function Footer () {
     return (
-        <div>This is the Footer</div>
+        <div>
+            <div>
+                <h1>Deliva Pro</h1>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     );
 }

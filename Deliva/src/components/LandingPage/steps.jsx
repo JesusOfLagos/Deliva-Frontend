@@ -5,6 +5,11 @@ import Rider from "./../../assets/rider.png"
 
 export default function Steps () {
     return (
-        <div>This Are The Steps</div>
+        <div>
+            <div></div>
+            <div>
+                <img src={Rider} alt="" />
+            </div>
+        </div>
     );
 }

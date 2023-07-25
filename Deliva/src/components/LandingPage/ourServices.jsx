@@ -8,6 +8,25 @@ import DeliveryCartoon from "./../../assets/deliveryCartoon.png"
 
 export default function OurServices () {
     return (
-        <div>This is Our Services</div>
+        <div>
+            <div>
+                <h2>Our Services</h2>
+                <p></p>
+            </div>
+            <div>
+                <div>
+                    <img src={location} alt="" />
+                </div>
+                <div>
+                    <img src={DeliveryCartoon} alt="" />
+                </div>
+                <div>
+                    <img src={Payment} alt="" />
+                </div>
+                <div>
+                    <img src={girlWithMap} alt="" />
+                </div>
+            </div>
+        </div>
     );
 }
