@@ -5,10 +5,10 @@ import Maps from "./../../assets/maps.png"
 
 export default function HowDeliva () {
     return (
-        <div>
+        <div  className="flex flex-col mt-32 mb-32 space-y-12">
             <div>
-                <h2>How Deliva Pro Works</h2>
-                <p></p>
+                <h1>How Deliva Pro Works</h1>
+                <div className="line"></div>
             </div>
             <div>
                 <img src={Maps} alt="Maps" />

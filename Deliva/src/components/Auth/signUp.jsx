@@ -1,7 +1,24 @@
 
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
+
+
+
+
+
 import googleLogo from '../../assets/googleLogo.png'
 import { Link } from "react-router-dom"
 // import Select from './select'
+
+
+
+const handleButtonClick = () => {
+  toast.success('This is a success toast!', {
+    position: 'top-right', // You can customize the position here if needed
+  });
+};
+
 
 
 function SignUp () {
@@ -47,7 +64,7 @@ const value = "Option 1";
         <input className='mt-2 mb-3 py-4 px-5 rounded-xl border-solid border-2 border-gray-600' type="password" name="" id="" placeholder='Verify your password.' />
         <p className="pt-2 pl-[28rem] text-black">Have an account? <span className="bg-red"><Link to="/sign-in" className="text-red-600 text-right">Login</Link></span></p>
         </div>
-        <button className=" bg-black mt-35 text-2xl text-white" type="submit">Sign Up</button>
+        <button onClick={handleButtonClick} className=" bg-black mt-35 text-2xl text-white" type="submit">Sign Up</button>
 
 
         <div className="flex flex-row pb-10 mt-20 justify-center">
@@ -65,6 +82,7 @@ const value = "Option 1";
         </div>
       <p className='text-black mt-20'>For further support, you may visit the Help Center or contact <br /> our customer service.</p>
       </div>
+      <ToastContainer position="top-right" />
     </div>
     </>
   )
