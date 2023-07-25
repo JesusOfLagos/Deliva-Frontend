@@ -12,11 +12,13 @@ export default function Steps () {
         <div className="flex flex-row mt-32 mb-32 justify-center space-x-6">
             <div className="flex-1 justify-center">
                 <div>
+                    <div className="-px-10">
                 <h1 className="tracking-tight pb-3">Steps To Use</h1>
                 <div className="flex justify-center">
                     <div class="border-t line w-32 border-[6px] solid-3 rounded-full  border-gray-500 relative w-16"></div>
                 </div>
-                <div className="grid grid-cols-2 grid-rows-2 mt-8 items-center gap-4">
+                     </div>
+                <div className="grid grid-cols-2 grid-rows-2 px-9 mt-8 items-center gap-4">
                     <div className="mt-3 mb-4">
                         <img src={Arrow} alt="" />
                         <p className="text-left">Download <br />Deliva Pro</p>
