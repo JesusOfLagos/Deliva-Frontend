@@ -22,17 +22,17 @@ export default function OurServices () {
                     <img className="absolute h-32 w-32 bottom-2 right-6" src={Location} alt="" />
                 </div>
                 <div className="bg-gray-400 h-48 relative flex flex-col rounded-2xl">
-                    <h2 className="font-bold text-left m-3">Optimal Routing</h2>
+                    <h2 className="font-bold text-3xl text-left m-3">Optimal Routing</h2>
                     <p className="text-left ml-3">Avoids traffic with <br /> Intelligence and <br /> technology</p>
                     <img className="absolute h-32 w-32 bottom-2 right-6" src={DeliveryCartoon} alt="" />
                 </div>
                 <div className="bg-gray-400 h-48 relative flex flex-col rounded-2xl">
-                    <h2 className="font-bold text-left m-3">Bidding System</h2>
+                    <h2 className="font-bold text-3xl text-left m-3">Bidding System</h2>
                     <p className="text-left ml-3">Pick price reasonable <br /> just for you</p>
                     <img className="absolute h-32 w-32 bottom-2 right-6" src={Payment} alt="" />
                 </div>
                 <div className="bg-gray-400 h-48 relative flex flex-col rounded-2xl">
-                    <h2 className="font-bold text-left m-3">Tracking</h2>
+                    <h2 className="font-bold text-3xl text-left m-3">Tracking</h2>
                     <p className="text-left ml-3">You can track your <br /> package once on the <br /> move</p>
                     <img className="absolute h-32 w-32 bottom-2 right-6" src={girlWithMap} alt="" />
                 </div>
