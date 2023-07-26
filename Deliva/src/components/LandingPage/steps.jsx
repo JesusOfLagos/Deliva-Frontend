@@ -10,8 +10,8 @@ import Home from "./../../assets/home.png"
 export default function Steps () {
     return (
         <div className="flex flex-row mt-32 mb-32 justify-center space-x-6">
-            <div className="flex-1 justify-center space-y-6">
-                <div>
+            <div className="flex-1 justify-center space-6">
+                <div className="flex flex-col gap-20">
                     <div className="-px-10">
                 <h2 className="tracking-tight text-3xl font-bold text-left text-black pb-3">Steps To Use</h2>
                 <div className="flex">

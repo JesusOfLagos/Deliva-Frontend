@@ -5,6 +5,8 @@ import Steps from "./LandingPage/steps"
 import OurServices from "./LandingPage/ourServices"
 import BeforeFooter from "./LandingPage/beforeFooter"
 import Footer from "./LandingPage/footer"
+import GetOurApp from "./LandingPage/getOurApp"
+import Last from "./LandingPage/last"
 
 function Home () {
     return (
@@ -15,7 +17,9 @@ function Home () {
         <Steps />
         <OurServices />
         <BeforeFooter />
-        <Footer />
+        <Footer /> 
+        <GetOurApp />
+        <Last />
         </>
     )
 }
