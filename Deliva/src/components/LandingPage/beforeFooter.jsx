@@ -8,31 +8,31 @@ import footerMap from "./../../assets/footerMap.png"
 
 export default function BeforeFooter () {
     return (
-        <div className="flex bg-gray-500 flex-row mt-32 mb-32 space-x-6">
+        <div className="flex rounded-3xl bg-gray-500 flex-row mt-32 mb-32 space-x-16">
             <div className="flex-1">
                 <img src={footerMap} alt="" />
             </div>
-            <div className="flex-1">
-                <div>
-                    <h2>Download <br /> Deliva Pro Now</h2>
-                    <p>Get Started and deliva your packages safely and faster. Get Deliva pro now.</p>
+            <div className="flex-1 mt-[10rem] justify-center">
+                <div className="m-4 mt-8 mb-16">
+                    <h2 className="font-bold text-4xl text-left">Download <br /> Deliva Pro Now</h2>
+                    <p className="text-left">Get Started and deliva your packages safely and <br /> faster. Get Deliva pro now.</p>
                 </div>
                 <div className="gap-4 flex flex row">
-                    <div className="bg-white flex flex-row rounded-2xl w-20">
-                        <div>
+                    <div className="bg-white flex flex-row rounded-2xl w-48">
+                        <div className="m-4">
                         <img src={googlePlay} alt="googlePlay" />
                         </div>
-                        <div>
-                        <p className="font-bold text-left text-black">Get it on</p>
+                        <div className="pt-2">
+                        <p className="text-left text-black">Get it on</p>
                         <h2 className="font-bold text-left text-black">Google Play</h2>
                         </div>
                     </div>
-                    <div className="bg-white flex flex-row rounded-2xl w-20">
-                        <div>
+                    <div className="bg-white flex flex-row rounded-2xl w-48">
+                        <div className="m-4">
                         <img src={Apple} alt="Apple Store" />
                         </div>
-                        <div>
-                        <p className="font-bold text-left text-black">Get it on</p>
+                        <div className="pt-2">
+                        <p className="text-left text-black">Get it on</p>
                         <h2 className="font-bold text-left text-black">Apple Store</h2>
                         </div>
                     </div>

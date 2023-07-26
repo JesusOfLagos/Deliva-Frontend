@@ -13,8 +13,8 @@ export default function Steps () {
             <div className="flex-1 justify-center">
                 <div>
                     <div className="-px-10">
-                <h1 className="tracking-tight pb-3">Steps To Use</h1>
-                <div className="flex justify-center">
+                <h2 className="tracking-tight text-3xl font-bold text-left text-black pb-3">Steps To Use</h2>
+                <div className="flex">
                     <div class="border-t line w-32 border-[6px] solid-3 rounded-full  border-gray-500 relative w-16"></div>
                 </div>
                      </div>
