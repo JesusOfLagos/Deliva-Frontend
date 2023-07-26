@@ -18,22 +18,22 @@ export default function BeforeFooter () {
                     <p>Get Started and deliva your packages safely and faster. Get Deliva pro now.</p>
                 </div>
                 <div>
-                    <div className="bg-white">
+                    <div className="bg-white flex flex-row">
                         <div>
                         <img src={googlePlay} alt="googlePlay" />
                         </div>
                         <div>
-                        <p>Get it on</p>
-                        <h2>Google Play</h2>
+                        <p className="font-bold text-black">Get it on</p>
+                        <h2 className="font-bold text-black">Google Play</h2>
                         </div>
                     </div>
-                    <div className="bg-white flex-row">
+                    <div className="bg-white flex flex-row">
                         <div>
                         <img src={Apple} alt="Apple Store" />
                         </div>
                         <div>
-                        <p>Get it on</p>
-                        <h2>Apple Store</h2>
+                        <p className="font-bold text-black">Get it on</p>
+                        <h2 className="font-bold text-black">Apple Store</h2>
                         </div>
                     </div>
                 </div>
