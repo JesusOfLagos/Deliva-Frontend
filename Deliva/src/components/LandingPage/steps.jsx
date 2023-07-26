@@ -21,19 +21,19 @@ export default function Steps () {
                 <div className="grid grid-cols-2 grid-rows-2 px-9 mt-8 items-center gap-4">
                     <div className="mt-3 mb-4">
                         <img src={Arrow} alt="" />
-                        <p className="text-left">Download <br />Deliva Pro</p>
+                        <p className="text-left text-black">Download <br />Deliva Pro</p>
                     </div>
                     <div className="mt-3 mb-4">
                         <img src={Dollar} alt="" />
-                        <p className="text-left">Bargain Price</p>
+                        <p className="text-left text-black">Bargain Price</p>
                     </div>
                     <div className="mt-3 mb-4">
                         <img src={Motorcycle} alt="" />
-                        <p className="text-left">Find Rider</p>
+                        <p className="text-left text-black">Find Rider</p>
                     </div>
                     <div className="mt-3 mb-4">
                         <img src={Home} alt="" />
-                        <p className="text-left">Track Deliver<br />To Destination</p>
+                        <p className="text-left text-black">Track Deliver<br />To Destination</p>
                     </div>
                 </div>
                 </div>

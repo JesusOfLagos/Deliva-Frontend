@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Hero () {
     return (
-        <div className="flex flex-row mt-32 mb-32 items-center space-x-6">
+        <div className="flex flex-row justify-center mt-32 mb-32 items-center space-x-6">
             <div className="flex-1 h-90">
                 <img className="" src={heroImage} alt="heroImage" />
             </div>

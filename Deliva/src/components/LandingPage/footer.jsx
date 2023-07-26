@@ -12,6 +12,8 @@ export default function Footer () {
         <div>
             <div>
                 <h1 className="text-black">Deliva Pro</h1>
+                <div></div>
+                <div></div>
             </div>
             <div></div>
             <div></div>
